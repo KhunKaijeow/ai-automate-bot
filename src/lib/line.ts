@@ -1,12 +1,17 @@
 export async function replyLineMessage(token: string, replyToken: string, messages: unknown[]) {
-  return await fetch("https://api.line.me/v2/bot/message/reply", {
+  const res = await fetch("https://api.line.me/v2/bot/message/reply", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${token}`,
     },
     body: JSON.stringify({ replyToken, messages }),
-  }).then((r) => r.json());
+  });
+  const data = await res.json();
+  if (!res.ok) {
+    console.error("LINE reply API failed:", res.status, JSON.stringify(data));
+  }
+  return data;
 }
 
 export async function getLineMessageContentBase64(token: string, messageId: string): Promise<string | null> {
