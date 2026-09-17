@@ -1,0 +1,71 @@
+{
+  "version": 3,
+  "middleware": {},
+  "sortedMiddleware": [],
+  "functions": {
+    "/api/cron/daily-email/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "required-server-files.js",
+        "server/server-reference-manifest.js",
+        "server/app/api/cron/daily-email/route_client-reference-manifest.js",
+        "server/edge/chunks/_next-internal_server_app_api_cron_daily-email_route_actions_0ttk-95.js",
+        "server/edge/chunks/node_modules_next_dist_esm_build_templates_edge-wrapper_1azyx3e.js",
+        "server/edge/chunks/[root-of-the-server]__0he1vfo._.js",
+        "server/edge/chunks/_0mhnyvk._.js",
+        "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_0a9kmr5.js"
+      ],
+      "name": "app/api/cron/daily-email/route",
+      "page": "/api/cron/daily-email/route",
+      "entrypoint": "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_0a9kmr5.js",
+      "matchers": [
+        {
+          "regexp": "^/api/cron/daily-email(?:/)?$",
+          "originalSource": "/api/cron/daily-email"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "LHsYUzXvGCBJ_1eIq7zYI",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "Uokf35ohUn9b+p3mk8wgME2M+xx4sv9mrCf+TRfVFig=",
+        "__NEXT_PREVIEW_MODE_ID": "bce0c83d472a1742ddc7c55a8e3d3984",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "4130f1c659c36a9cecaccc7f54bf392c3778b933a6c2e6a6a109d7c30126fa27",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "87efb9979f26f39ab688129e70fe9e07d77e4ddcf7096fa0748481aad5b462b4"
+      }
+    },
+    "/api/webhook/telegram/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "required-server-files.js",
+        "server/server-reference-manifest.js",
+        "server/app/api/webhook/telegram/route_client-reference-manifest.js",
+        "server/edge/chunks/_next-internal_server_app_api_webhook_telegram_route_actions_18cbhzf.js",
+        "server/edge/chunks/node_modules_next_dist_esm_1x7_zle._.js",
+        "server/edge/chunks/[root-of-the-server]__0he1vfo._.js",
+        "server/edge/chunks/_0jcbq4-._.js",
+        "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_0d6c04u.js"
+      ],
+      "name": "app/api/webhook/telegram/route",
+      "page": "/api/webhook/telegram/route",
+      "entrypoint": "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_0d6c04u.js",
+      "matchers": [
+        {
+          "regexp": "^/api/webhook/telegram(?:/)?$",
+          "originalSource": "/api/webhook/telegram"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "LHsYUzXvGCBJ_1eIq7zYI",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "Uokf35ohUn9b+p3mk8wgME2M+xx4sv9mrCf+TRfVFig=",
+        "__NEXT_PREVIEW_MODE_ID": "bce0c83d472a1742ddc7c55a8e3d3984",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "4130f1c659c36a9cecaccc7f54bf392c3778b933a6c2e6a6a109d7c30126fa27",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "87efb9979f26f39ab688129e70fe9e07d77e4ddcf7096fa0748481aad5b462b4"
+      }
+    }
+  }
+}

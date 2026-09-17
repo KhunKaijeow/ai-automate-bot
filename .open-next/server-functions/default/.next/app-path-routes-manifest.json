@@ -1,0 +1,8 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/cron/daily-email/route": "/api/cron/daily-email",
+  "/api/webhook/telegram/route": "/api/webhook/telegram",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/"
+}
