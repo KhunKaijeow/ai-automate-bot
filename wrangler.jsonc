@@ -8,9 +8,6 @@
     "directory": ".open-next/assets",
     "binding": "ASSETS"
   },
-  "triggers": {
-    "crons": ["0 1 * * *"] // ทำงานทุกเช้า 08:00 น. เวลาไทย
-  },
   "vars": {
     "ACTIVE_TRACK": "fortune"
   }
