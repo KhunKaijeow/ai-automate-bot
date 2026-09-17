@@ -44,3 +44,15 @@ next-env.d.ts
 AGENTS.md
 CLAUDE.md
 
+# opennext & cloudflare wrangler
+/.open-next/
+/.wrangler/
+.dev.vars
+
+# IDE & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
