@@ -2,8 +2,6 @@ import { NextRequest, NextResponse } from "next/server";
 import { generateTyphoonResponse, TrackType } from "@/lib/typhoon";
 import { getTelegramFileBase64, sendTelegramMessage } from "@/lib/telegram";
 
-export const runtime = "edge";
-
 export async function POST(req: NextRequest) {
   const body = await req.json();
   const botToken = process.env.TELEGRAM_BOT_TOKEN;

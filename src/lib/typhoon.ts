@@ -3,8 +3,8 @@ import OpenAI from "openai";
 export const TYPHOON_API_BASE = "https://api.opentyphoon.ai/v1";
 
 export const TYPHOON_MODELS = {
-  TEXT: "typhoon-v1.5x-70b-instruct",
-  VISION: "typhoon-v1.5x-vision",
+  TEXT: "typhoon-v2.5-30b-a3b-instruct",
+  VISION: "typhoon-v2.5-30b-a3b-instruct",
 };
 
 export function getTyphoonClient(apiKey?: string) {

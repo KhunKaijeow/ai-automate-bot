@@ -1,8 +1,6 @@
 import { NextResponse } from "next/server";
 import { sendDailySummaryEmail, EmailMethod } from "@/lib/email";
 
-export const runtime = "edge";
-
 export async function GET() {
   const targetEmail = process.env.DAILY_REPORT_EMAIL;
   if (!targetEmail) return NextResponse.json({ message: "No email configured" });
